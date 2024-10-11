@@ -12,8 +12,7 @@ buildFHSUserEnv {
       fontconfig
       freetype
       glib
-      glibc
-      glibc
+      glibc_multi
       gnome2.GConf
       gtk2
       gtk3
@@ -39,4 +38,5 @@ buildFHSUserEnv {
       libXrender
       libXtst
     ]);
+  multiArch = true;
 }
